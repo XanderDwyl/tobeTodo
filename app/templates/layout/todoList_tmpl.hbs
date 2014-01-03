@@ -1,0 +1,73 @@
+
+	<div class="panel-body">
+		<div class="col-md-1"></div>
+		<div class="col-md-10">
+			<div class="panel panel-primary todo-list">
+				<div class="panel-body">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="New Todo...">
+						<span class="input-group-btn">
+							<button class="btn btn-default" type="button">Enter</button>
+						</span>
+					</div>
+					<div class="todo-list-navigator">
+						<div class="pull-left">
+							<div class="filters">
+					            <select class="todoList-filter">
+					                <option value="assigned">Show 10</option>
+					            </select>
+					            <script>
+						            $('.todoList-filter').selectpicker();
+					            </script>
+					        </div>
+					    </div>
+					    <div class="pull-right">
+					        <div class="ui-group-buttons">
+				                <button type="button" class="btn btn-success">Mark as Done</button>
+				                <div class="or"></div>
+				                <button type="button" class="button btn btn-danger">Delete</button>
+				            </div>
+				        </div>
+				    </div>
+				    <hr>
+                    <table class="table table-striped custab">
+					    <thead>
+					        <tr>
+					            <th>Title</th>
+					            <th>Status</th>
+					            <th>Date Created</th>
+					            <th class="text-center"><input type="checkbox"></th>
+					        </tr>
+					    </thead>
+					    <tbody>
+							<tr>
+								<td>1</td>
+								<td>News</td>
+								<td>News Cate</td>
+								<td class="text-center">
+									<input type="checkbox">
+								</td>
+							</tr>
+				            <tr>
+								<td>1</td>
+								<td>News</td>
+								<td>News Cate</td>
+								<td class="text-center">
+									<input type="checkbox">
+								</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>News</td>
+								<td>News Cate</td>
+								<td class="text-center">
+									<input type="checkbox">
+								</td>
+							</tr>
+						</tbody>
+			    	</table>
+                </div>
+			</div>
+		</div>
+		<div class="col-md-1"></div>
+	</div>

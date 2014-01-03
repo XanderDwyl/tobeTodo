@@ -1,0 +1,52 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import 'bootstrap3.scss';
+@import 'bootstrap-select.scss';
+
+.wrapper {
+	background : linear-gradient(#D1EDF9, #AFD8EB) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.panel {
+	border        : 0;
+	border-radius : 0;
+	box-shadow    : none;
+	margin-bottom : 0;
+}
+.left-side-bar, .main-todo-container {
+	min-height : 750px;
+	height     : auto;
+	overflow   : hidden;
+	padding    : 0;
+}
+.left-side-bar {
+	padding-right: 5px;
+}
+.todo-container {
+	min-height : 940px;
+	height     : auto;
+}
+.todo-labels {
+	list-style : none;
+	padding    : 0;
+}
+.todo-labels li{
+	border-bottom : 1px solid #B0D9EC;
+	padding       : 15px 5px;
+	text-align    : center;
+}
+.todo-list {
+	margin-top: 50px;
+}
+.todo-list-navigator {
+    margin        : 10px 0 35px;
+    padding       : 15px 0 15px 2px;
+}
+
+.ui-group-buttons .or{position:relative;float:left;width:.3em;height:1.3em;z-index:3;font-size:12px}
+.ui-group-buttons .or:before{position:absolute;top:50%;left:50%;content:'or';background-color:#5a5a5a;margin-top:-.1em;margin-left:-.9em;width:1.8em;height:1.8em;line-height:1.55;color:#fff;font-style:normal;font-weight:400;text-align:center;border-radius:500px;-webkit-box-shadow:0 0 0 1px rgba(0,0,0,0.1);box-shadow:0 0 0 1px rgba(0,0,0,0.1);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
+.ui-group-buttons .or:after{position:absolute;top:0;left:0;content:' ';width:.3em;height:2.84em;background-color:rgba(0,0,0,0);border-top:.6em solid #5a5a5a;border-bottom:.6em solid #5a5a5a}
+.ui-group-buttons{display:inline-block;vertical-align:middle}
+.ui-group-buttons:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.ui-group-buttons .btn{float:left;border-radius:0}
+.ui-group-buttons .btn:first-child{margin-left:0;border-top-left-radius:.25em;border-bottom-left-radius:.25em;padding-right:15px}
+.ui-group-buttons .btn:last-child{border-top-right-radius:.25em;border-bottom-right-radius:.25em;padding-left:15px}
